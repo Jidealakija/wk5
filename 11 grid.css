@@ -17,10 +17,15 @@
         gap: 30px;
     }
     article{
+        background: green;
         border: 15px solid crimson;
     }
     article:nth-of-type(1){
         grid-area: a;
+        /* background-image:url(./images/spiderman.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:; */
     }
     article:nth-of-type(2){
         grid-area: b;
@@ -70,10 +75,15 @@
         gap: 30px;
     }
     article{
+        background: darkgoldenrod;
         border: 15px solid crimson;
     }
     article:nth-of-type(1){
         grid-area: a;
+        background-image:url(./images/spiderman.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:;
     }
     article:nth-of-type(2){
         grid-area: b;
@@ -120,10 +130,14 @@
         gap: 30px;
     }
     article{
+        background: cornflowerblue;
         border: 15px solid crimson;
     }
     article:nth-of-type(1){
         grid-area: a;
+        /* background-image:url(./images/spiderman.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; */
     }
     article:nth-of-type(2){
         grid-area: b;
