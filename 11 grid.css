@@ -4,6 +4,10 @@
         text-transform: capitalize;
         min-height: 10vh;
         color: antiquewhite;
+        position: fixed;
+        right: 0;
+        left: 0;
+        opacity: 0.5;
     }
 
     ul{
@@ -37,6 +41,9 @@
                              "b" 
                              "a";                   
         gap: 30px;
+        position: relative;
+        top: 300px;
+        z-index: -1;
     }
     article{
         background: green;
@@ -97,6 +104,10 @@
         min-height: 20vh;
         color: antiquewhite;
         margin-bottom: auto;
+        position: fixed;
+        right: 0;
+        left: 0;
+        opacity: 0.5;
     }
 
     ul{
@@ -110,7 +121,7 @@
     
     li{
         border: bottom 11px;
-        padding: 100px 0;
+        padding: 90px 0;
         margin:auto
     }
 
@@ -126,6 +137,9 @@
                              "c c b" 
                              "a a a";                   
         gap: 30px;
+        position: relative;
+        top: 300px;
+        z-index: -1;
     }
     article{
         background: darkgoldenrod;
