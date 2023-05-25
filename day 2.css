@@ -1,0 +1,32 @@
+ul,body{
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    text-transform: capitalize;
+    border-bottom: solid red 2rem;
+}
+
+ul{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+   justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    border: bottom 11px;
+    padding: 10px 0;
+    margin:auto
+}
+
+a{
+    color: aquamarine;
+}

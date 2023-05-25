@@ -1,4 +1,26 @@
 @media screen and (max-width:767px){
+    nav{
+        background-color: black;
+        text-transform: capitalize;
+        min-height: 10vh;
+        color: antiquewhite;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 2em;
+        align-items: center;
+       justify-content: space-evenly;
+       list-style: none;
+    }
+    
+    li{
+        border: bottom 11px;
+        padding: 10px 0;
+        margin:auto
+    }
+
     main{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -19,6 +41,13 @@
     article{
         background: green;
         border: 15px solid crimson;
+    }
+
+    .small{
+        display: block;
+    }
+    .big{
+        display: none;
     }
     article:nth-of-type(1){
         grid-area: a;
@@ -61,6 +90,30 @@
 }
 
 @media screen and (min-width:768px){
+    
+    nav{
+        background-color: black;
+        text-transform: capitalize;
+        min-height: 20vh;
+        color: antiquewhite;
+        margin-bottom: auto;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        font-size: 2em;
+        align-items: center;
+       justify-content: space-evenly;
+       list-style: none;
+    }
+    
+    li{
+        border: bottom 11px;
+        padding: 100px 0;
+        margin:auto
+    }
+
     main{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -78,12 +131,18 @@
         background: darkgoldenrod;
         border: 15px solid crimson;
     }
+
+    .small{
+        display: none;
+    }
+    .big{
+        display: bl;
+    }
     article:nth-of-type(1){
         grid-area: a;
         background-image:url(./images/spiderman.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-blend-mode:;
     }
     article:nth-of-type(2){
         grid-area: b;
